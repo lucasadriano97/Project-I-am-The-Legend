@@ -1,4 +1,9 @@
 header{
-  border: solid;
-  border-color: black;
+  border:solid black;
+  margin-top: 2%;
+  text-align: center;
+  height: auto;
+  min-height:1cm;
+  padding:2%;
+  width:95%;
 }
