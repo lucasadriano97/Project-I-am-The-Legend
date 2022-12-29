@@ -1,4 +1,5 @@
 header{
-  border: solid black;
+  border: solid;
+  border-color: black;
   
 }
