@@ -1,12 +1,77 @@
+@font-face {
+  font-family:'Cronus' ;
+  src: url('font/Cronus.otf');
+}
+@font-face {
+  font-family:'Adanda' ;
+  src: url('font/Adanda.otf');
+}
+@font-face {
+  font-family:'Cronus' ;
+  src: url('font/Cronus.ttf');
+}
 header{
-  border:solid black;
-  margin-top: 2%;
+  margin-top: 0%;
   text-align: center;
   height: auto;
   min-height:1cm;
   padding:2%;
   width:95%;
 }
-#main{
-  
+body{
+  font-family: 'Cronus';
 }
+#main{  
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+#logo{
+  height: auto;
+  max-width: 5cm;
+  min-height: 60px;
+}
+
+#menu{
+  float: left;
+  width: 30%;
+  min-width:2cm;
+  border: solid black;
+  margin-right: 1cm;
+  box-sizing: content-box;
+}
+
+#pMenu{
+height: auto;
+margin-left: 6%;
+font-size: x-large;
+padding:-1;
+font-weight: 900;}
+
+
+#menubox{
+  margin-left: 2%;
+  border: solid black;
+  border-radius: 20px;
+  min-width:max-content;
+  width: 100%;
+  max-width: 250px;
+  height: max-content; 
+  padding-left: 3%;
+}
+
+#grid{
+  float: left;
+  width: 30%;
+  min-width:2cm;
+  border: solid black;
+  margin-right: 1cm;
+  box-sizing: content-box;
+}
+
+#pGrid{
+height: auto;
+margin-left: 6%;
+font-size: x-large;
+padding:-1;
+font-weight: 900;}
