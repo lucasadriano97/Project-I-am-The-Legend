@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Mon';
-    src: url('font/Montserrat-VariableFont_wght.ttf') format('opentype'), url('font/Montserrat-VariableFont_wght.ttf') format('truetype');
+    src: url('https://github.com/lucasadriano97/Project-I-am-The-Legend/blob/main/Application/font/Cronus.otf') format('opentype'), url('https://github.com/lucasadriano97/Project-I-am-The-Legend/blob/main/Application/font/Cronus.otf') format('truetype');
     font-size: normal;
     font-style: normal;
 }
@@ -32,7 +32,6 @@ header {
 
 #Menu {
     margin-left: 2%;
-    width: max-content;
 }
 
 #boxmenu {
@@ -40,9 +39,10 @@ header {
     padding-left: 10px;
     text-align: left;
     border: solid black;
-    min-width: 4cm;
-    width: max-content;
     height: auto;
     max-height: max-content;
     border-radius: 20px;
+    width: 30%;
+    min-width: 2cm;
+    max-width: 6cm;
 }
